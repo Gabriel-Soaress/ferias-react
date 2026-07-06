@@ -1,0 +1,8 @@
+.disponivel {
+    color: green;
+}
+
+.esgotado {
+    color: gray;
+    text-decoration: line-through;
+}

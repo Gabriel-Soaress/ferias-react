@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+.card{
+    margin: 2vw;
+    width: 30vw;
+    height: 20vh;
+    padding: 2vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2vh;
+    border-left: #07ae07 6px solid;
+}
+
+.nome{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.marca{
+    font-size: 20px;
+    text-decoration: underline solid  #07ae07;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.desc{
+    font-size: 18px;
+}
+
+.preco span{
+    color: #015701;
+}
+.preco{
+    margin-top: 10px;
+    font-size: 25px;
+}
