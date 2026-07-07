@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import {useState} from "react";
 import PlacaDeVideo from "./components/PlacaDeVideo";
 import CardAnime from "./components/CardAnime";
 import ItemEstoque from "./components/ItemEstoque";
 import FilmeCard from "./components/FilmeCard";
+import TrocaInfo from "./components/troca info componentes/TrocaInfo";
+import TrocaInfo2 from "./components/troca info componentes/TrocaInfo2";
 
 function App() {
     const produtos = [
@@ -19,7 +22,7 @@ function App() {
     ]
 
 
-  return (
+    return (
       <div>
           <PlacaDeVideo nome="RTX 5090" marca='nvidia' desc="uma placa de video maravilha incrivelmente boa" preco='500' />
           <PlacaDeVideo nome="RTX 5070" marca='nvidia' desc="uma placa de video maravilha incrivelmente boa" preco='400' />
@@ -36,6 +39,9 @@ function App() {
           {filmes.map((filme) => (
             <FilmeCard nome={filme.nome} nota={filme.nota}></FilmeCard>
           ))}
+
+            <TrocaInfo></TrocaInfo>
+          <TrocaInfo2></TrocaInfo2>
       </div>
   )
 }
