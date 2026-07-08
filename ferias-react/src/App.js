@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import {useState} from "react";
+
 import PlacaDeVideo from "./components/PlacaDeVideo";
 import CardAnime from "./components/CardAnime";
 import ItemEstoque from "./components/ItemEstoque";
