@@ -7,6 +7,7 @@ import ItemEstoque from "./components/ItemEstoque";
 import FilmeCard from "./components/FilmeCard";
 import TrocaInfo from "./components/troca info componentes/TrocaInfo";
 import TrocaInfo2 from "./components/troca info componentes/TrocaInfo2";
+import CaixaLojaT3 from "./components/troca info componentes/CaixaLojaT3";
 
 function App() {
     const produtos = [
@@ -40,8 +41,9 @@ function App() {
             <FilmeCard nome={filme.nome} nota={filme.nota}></FilmeCard>
           ))}
 
-            <TrocaInfo></TrocaInfo>
+          <TrocaInfo></TrocaInfo>
           <TrocaInfo2></TrocaInfo2>
+          <CaixaLojaT3></CaixaLojaT3>
       </div>
   )
 }
