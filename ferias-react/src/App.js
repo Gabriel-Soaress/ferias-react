@@ -8,6 +8,7 @@ import FilmeCard from "./components/FilmeCard";
 import TrocaInfo from "./components/troca info componentes/TrocaInfo";
 import TrocaInfo2 from "./components/troca info componentes/TrocaInfo2";
 import CaixaLojaT3 from "./components/troca info componentes/CaixaLojaT3";
+import PainelEstoqueT4 from "./components/troca info componentes/PainelEstoqueT4";
 
 function App() {
     const produtos = [
@@ -44,6 +45,7 @@ function App() {
           <TrocaInfo></TrocaInfo>
           <TrocaInfo2></TrocaInfo2>
           <CaixaLojaT3></CaixaLojaT3>
+          <PainelEstoqueT4></PainelEstoqueT4>
       </div>
   )
 }
