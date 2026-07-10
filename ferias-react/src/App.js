@@ -9,6 +9,7 @@ import TrocaInfo from "./components/troca info componentes/TrocaInfo";
 import TrocaInfo2 from "./components/troca info componentes/TrocaInfo2";
 import CaixaLojaT3 from "./components/troca info componentes/CaixaLojaT3";
 import PainelEstoqueT4 from "./components/troca info componentes/PainelEstoqueT4";
+import PainelLoja from "./components/EFFECT E API/PainelLoja.jsx";
 
 function App() {
     const produtos = [
@@ -46,6 +47,7 @@ function App() {
           <TrocaInfo2></TrocaInfo2>
           <CaixaLojaT3></CaixaLojaT3>
           <PainelEstoqueT4></PainelEstoqueT4>
+          <PainelLoja></PainelLoja>
       </div>
   )
 }
