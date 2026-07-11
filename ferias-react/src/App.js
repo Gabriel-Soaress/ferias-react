@@ -10,6 +10,7 @@ import TrocaInfo2 from "./components/troca info componentes/TrocaInfo2";
 import CaixaLojaT3 from "./components/troca info componentes/CaixaLojaT3";
 import PainelEstoqueT4 from "./components/troca info componentes/PainelEstoqueT4";
 import PainelLoja from "./components/EFFECT E API/PainelLoja.jsx";
+import BiblioApp from "./components/EFFECT E API/BiblioApp";
 
 function App() {
     const produtos = [
@@ -27,7 +28,7 @@ function App() {
 
     return (
       <div>
-          <PlacaDeVideo nome="RTX 5090" marca='nvidia' desc="uma placa de video maravilha incrivelmente boa" preco='500' />
+          {/* <PlacaDeVideo nome="RTX 5090" marca='nvidia' desc="uma placa de video maravilha incrivelmente boa" preco='500' />
           <PlacaDeVideo nome="RTX 5070" marca='nvidia' desc="uma placa de video maravilha incrivelmente boa" preco='400' />
           <CardAnime titulo="Naruto" eps={500} novo={true}></CardAnime>
 
@@ -47,7 +48,8 @@ function App() {
           <TrocaInfo2></TrocaInfo2>
           <CaixaLojaT3></CaixaLojaT3>
           <PainelEstoqueT4></PainelEstoqueT4>
-          <PainelLoja></PainelLoja>
+          <PainelLoja></PainelLoja>*/}
+          <BiblioApp></BiblioApp>
       </div>
   )
 }
